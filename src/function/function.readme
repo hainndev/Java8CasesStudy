@@ -1,0 +1,8 @@
+@FunctionalInterface
+Functional interface is an interface that specifies exactly one abstract method.
+
+Function     :  T -> R
+Consumer  :  T -> void
+Supplier     :   () -> T
+IntBinaryOperator :  (int, int) -> int
+BiFunction :   (T, U) -> R

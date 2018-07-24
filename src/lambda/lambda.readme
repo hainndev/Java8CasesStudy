@@ -1,0 +1,23 @@
+Syntax:
+
+(A list of parameters) ->   The body of the lambda
+
+
+Use case                        Examples of lambdas
+---------------------------------------------------------------------------------------------------
+1. A boolean expression            (List<String> list)  ->   list.isEmpty()
+
+2. Creating objects                () -> new Apple(10)
+
+3. Consuming from an object        (Apple a)  ->   { System.out.println(a.getWeight()); }
+
+4. Select/extract from an object   (String s)  ->   s.length()
+
+5. Combine two values              (int a, int b)  ->   a * b
+
+6. Compare two objects             (Apple a1, Apple a2) ->  a1.getWeight().compareTo(a2.getWeight())
+
+
+More detail:
+http://www.oracle.com/webfolder/technetwork/tutorials/obe/java/Lambda-QuickStart/index.html#section3
+http://www.mkyong.com/tutorials/java-8-tutorials/
